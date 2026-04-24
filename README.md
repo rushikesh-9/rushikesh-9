@@ -71,15 +71,6 @@ fun_fact: >
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=rushikesh-9&theme=tokyonight&column=6&margin-w=10&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
 
 ## 🌐 Connect With Me
 
@@ -87,7 +78,7 @@ fun_fact: >
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rushikesh-chandanwar)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rushikesh-9)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rushikeshchandanwar@gmail.com)
 
 </div>
 
