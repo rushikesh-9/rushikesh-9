@@ -1,50 +1,179 @@
+<svg width="480" height="280" viewBox="0 0 480 280" xmlns="http://www.w3.org/2000/svg">
+<rect width="480" height="280" fill="#0d1117" rx="12"/>
+
+<!-- background dots -->
+<circle cx="40" cy="40" r="1.5" fill="#1e3a4a" opacity="0.8"/>
+<circle cx="100" cy="20" r="1" fill="#1e3a4a" opacity="0.6"/>
+<circle cx="380" cy="30" r="1.5" fill="#1e3a4a" opacity="0.8"/>
+<circle cx="440" cy="60" r="1" fill="#1e3a4a" opacity="0.6"/>
+<circle cx="60" cy="250" r="1.5" fill="#1e3a4a" opacity="0.6"/>
+<circle cx="420" cy="240" r="1" fill="#1e3a4a" opacity="0.8"/>
+<circle cx="200" cy="15" r="1" fill="#1e3a4a" opacity="0.5"/>
+<circle cx="320" cy="265" r="1.5" fill="#1e3a4a" opacity="0.5"/>
+
+<!-- snowflake centered -->
+<g transform="translate(240,120)">
+  <circle r="5" fill="#00B4D8"/>
+
+  <g transform="rotate(0)">
+    <line x1="0" y1="0" x2="0" y2="-95" stroke="#00B4D8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="95" stroke-dashoffset="95">
+      <animate attributeName="stroke-dashoffset" from="95" to="0" dur="0.8s" begin="0.2s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="-18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="-20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <circle cx="0" cy="-95" r="3.5" fill="#00B4D8" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.15s" begin="1.05s" fill="freeze"/>
+    </circle>
+    <!-- crossbar at top tip -->
+    <line x1="-22" y1="-95" x2="22" y2="-95" stroke="#00B4D8" stroke-width="2" stroke-linecap="round" stroke-dasharray="44" stroke-dashoffset="44">
+      <animate attributeName="stroke-dashoffset" from="44" to="0" dur="0.4s" begin="1.25s" fill="freeze"/>
+    </line>
+  </g>
+
+  <g transform="rotate(60)">
+    <line x1="0" y1="0" x2="0" y2="-95" stroke="#00B4D8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="95" stroke-dashoffset="95">
+      <animate attributeName="stroke-dashoffset" from="95" to="0" dur="0.8s" begin="0.2s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="-18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="-20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <circle cx="0" cy="-95" r="3.5" fill="#00B4D8" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.15s" begin="1.05s" fill="freeze"/>
+    </circle>
+  </g>
+
+  <g transform="rotate(120)">
+    <line x1="0" y1="0" x2="0" y2="-95" stroke="#00B4D8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="95" stroke-dashoffset="95">
+      <animate attributeName="stroke-dashoffset" from="95" to="0" dur="0.8s" begin="0.2s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="-18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="-20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <circle cx="0" cy="-95" r="3.5" fill="#00B4D8" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.15s" begin="1.05s" fill="freeze"/>
+    </circle>
+  </g>
+
+  <g transform="rotate(180)">
+    <line x1="0" y1="0" x2="0" y2="-95" stroke="#00B4D8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="95" stroke-dashoffset="95">
+      <animate attributeName="stroke-dashoffset" from="95" to="0" dur="0.8s" begin="0.2s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="-18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="-20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <circle cx="0" cy="-95" r="3.5" fill="#00B4D8" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.15s" begin="1.05s" fill="freeze"/>
+    </circle>
+  </g>
+
+  <g transform="rotate(240)">
+    <line x1="0" y1="0" x2="0" y2="-95" stroke="#00B4D8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="95" stroke-dashoffset="95">
+      <animate attributeName="stroke-dashoffset" from="95" to="0" dur="0.8s" begin="0.2s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="-18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="-20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <circle cx="0" cy="-95" r="3.5" fill="#00B4D8" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.15s" begin="1.05s" fill="freeze"/>
+    </circle>
+  </g>
+
+  <g transform="rotate(300)">
+    <line x1="0" y1="0" x2="0" y2="-95" stroke="#00B4D8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="95" stroke-dashoffset="95">
+      <animate attributeName="stroke-dashoffset" from="95" to="0" dur="0.8s" begin="0.2s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="-18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-32" x2="18" y2="-50" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="25" stroke-dashoffset="25">
+      <animate attributeName="stroke-dashoffset" from="25" to="0" dur="0.3s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="-20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-62" x2="20" y2="-82" stroke="#38bdf8" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="28" stroke-dashoffset="28">
+      <animate attributeName="stroke-dashoffset" from="28" to="0" dur="0.3s" begin="1.1s" fill="freeze"/>
+    </line>
+    <circle cx="0" cy="-95" r="3.5" fill="#00B4D8" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.15s" begin="1.05s" fill="freeze"/>
+    </circle>
+  </g>
+</g>
+
+<!-- name using clean SVG text — fades in after snowflake -->
+<text x="240" y="242" text-anchor="middle"
+  font-family="'Courier New', monospace" font-size="28" font-weight="700"
+  letter-spacing="8" fill="#00B4D8" opacity="0">
+  RUSHIKESH CHANDANWAR
+  <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.6s" fill="freeze"/>
+</text>
+<text x="240" y="265" text-anchor="middle"
+  font-family="'Courier New', monospace" font-size="12" font-weight="400"
+  letter-spacing="4" fill="#38bdf8" opacity="0">
+  LINUX | CLOUD | DEVOPS
+  <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="2.0s" fill="freeze"/>
+</text>
+
+</svg> 
+
+
 <div align="center">
 
-<!--  SNOWFLAKE + NAME ANIMATION -->
-<p align="center">
-<svg width="340" height="300" viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg">
-<rect width="340" height="300" fill="#0d1117" rx="12"/>
-<style>
-@keyframes grow{from{stroke-dashoffset:var(--l)}to{stroke-dashoffset:0}}
-@keyframes fadein{from{opacity:0}to{opacity:1}}
-@keyframes write{from{stroke-dashoffset:var(--l)}to{stroke-dashoffset:0}}
-.arm{stroke:#00B4D8;stroke-linecap:round;fill:none;stroke-width:2.5;stroke-dasharray:var(--l);stroke-dashoffset:var(--l);animation:grow 0.9s 0.1s cubic-bezier(.4,0,.2,1) forwards;}
-.br{stroke:#7dd3fc;stroke-linecap:round;fill:none;stroke-width:1.5;stroke-dasharray:var(--l);stroke-dashoffset:var(--l);}
-.cb{stroke:#00B4D8;stroke-linecap:round;fill:none;stroke-width:2;stroke-dasharray:var(--l);stroke-dashoffset:var(--l);animation:grow 0.5s 1.2s ease forwards;}
-.nm{stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;fill:none;stroke-width:2.8;stroke-dasharray:var(--l);stroke-dashoffset:var(--l);}
-.dot{opacity:0;animation:fadein 0.2s 1.05s ease forwards;}
-</style>
-<g transform="translate(170,115)">
-  <circle r="5" fill="#00B4D8"/>
-  <g transform="rotate(0)"><line class="arm" style="--l:100" x1="0" y1="0" x2="0" y2="-100"/><line class="br" style="--l:22;animation:grow 0.4s .95s ease forwards;" x1="0" y1="-35" x2="-16" y2="-51"/><line class="br" style="--l:22;animation:grow 0.4s .98s ease forwards;" x1="0" y1="-35" x2="16" y2="-51"/><line class="br" style="--l:25;animation:grow 0.4s 1.05s ease forwards;" x1="0" y1="-65" x2="-18" y2="-83"/><line class="br" style="--l:25;animation:grow 0.4s 1.08s ease forwards;" x1="0" y1="-65" x2="18" y2="-83"/><circle cx="0" cy="-100" r="4" fill="#00B4D8" class="dot"/></g>
-  <g transform="rotate(60)"><line class="arm" style="--l:100" x1="0" y1="0" x2="0" y2="-100"/><line class="br" style="--l:22;animation:grow 0.4s .95s ease forwards;" x1="0" y1="-35" x2="-16" y2="-51"/><line class="br" style="--l:22;animation:grow 0.4s .98s ease forwards;" x1="0" y1="-35" x2="16" y2="-51"/><line class="br" style="--l:25;animation:grow 0.4s 1.05s ease forwards;" x1="0" y1="-65" x2="-18" y2="-83"/><line class="br" style="--l:25;animation:grow 0.4s 1.08s ease forwards;" x1="0" y1="-65" x2="18" y2="-83"/><circle cx="0" cy="-100" r="4" fill="#00B4D8" class="dot"/></g>
-  <g transform="rotate(120)"><line class="arm" style="--l:100" x1="0" y1="0" x2="0" y2="-100"/><line class="br" style="--l:22;animation:grow 0.4s .95s ease forwards;" x1="0" y1="-35" x2="-16" y2="-51"/><line class="br" style="--l:22;animation:grow 0.4s .98s ease forwards;" x1="0" y1="-35" x2="16" y2="-51"/><line class="br" style="--l:25;animation:grow 0.4s 1.05s ease forwards;" x1="0" y1="-65" x2="-18" y2="-83"/><line class="br" style="--l:25;animation:grow 0.4s 1.08s ease forwards;" x1="0" y1="-65" x2="18" y2="-83"/><circle cx="0" cy="-100" r="4" fill="#00B4D8" class="dot"/></g>
-  <g transform="rotate(180)"><line class="arm" style="--l:100" x1="0" y1="0" x2="0" y2="-100"/><line class="br" style="--l:22;animation:grow 0.4s .95s ease forwards;" x1="0" y1="-35" x2="-16" y2="-51"/><line class="br" style="--l:22;animation:grow 0.4s .98s ease forwards;" x1="0" y1="-35" x2="16" y2="-51"/><line class="br" style="--l:25;animation:grow 0.4s 1.05s ease forwards;" x1="0" y1="-65" x2="-18" y2="-83"/><line class="br" style="--l:25;animation:grow 0.4s 1.08s ease forwards;" x1="0" y1="-65" x2="18" y2="-83"/><circle cx="0" cy="-100" r="4" fill="#00B4D8" class="dot"/></g>
-  <g transform="rotate(240)"><line class="arm" style="--l:100" x1="0" y1="0" x2="0" y2="-100"/><line class="br" style="--l:22;animation:grow 0.4s .95s ease forwards;" x1="0" y1="-35" x2="-16" y2="-51"/><line class="br" style="--l:22;animation:grow 0.4s .98s ease forwards;" x1="0" y1="-35" x2="16" y2="-51"/><line class="br" style="--l:25;animation:grow 0.4s 1.05s ease forwards;" x1="0" y1="-65" x2="-18" y2="-83"/><line class="br" style="--l:25;animation:grow 0.4s 1.08s ease forwards;" x1="0" y1="-65" x2="18" y2="-83"/><circle cx="0" cy="-100" r="4" fill="#00B4D8" class="dot"/></g>
-  <g transform="rotate(300)"><line class="arm" style="--l:100" x1="0" y1="0" x2="0" y2="-100"/><line class="br" style="--l:22;animation:grow 0.4s .95s ease forwards;" x1="0" y1="-35" x2="-16" y2="-51"/><line class="br" style="--l:22;animation:grow 0.4s .98s ease forwards;" x1="0" y1="-35" x2="16" y2="-51"/><line class="br" style="--l:25;animation:grow 0.4s 1.05s ease forwards;" x1="0" y1="-65" x2="-18" y2="-83"/><line class="br" style="--l:25;animation:grow 0.4s 1.08s ease forwards;" x1="0" y1="-65" x2="18" y2="-83"/><circle cx="0" cy="-100" r="4" fill="#00B4D8" class="dot"/></g>
-  <line class="cb" style="--l:56" x1="-28" y1="-100" x2="28" y2="-100"/>
-</g>
-<path class="nm" style="--l:700;animation:write 2.4s 1.8s ease forwards;" transform="translate(170,230)"
-  d="M-115,12 L-115,-12 L-103,12 L-91,-12 L-91,12
-     M-81,12 L-81,-12 L-65,-12 L-65,0 L-81,0 L-65,12
-     M-57,-12 L-57,12 M-61,-12 L-53,-12
-     M-43,-12 Q-57,0 -43,12 Q-29,0 -43,-12
-     M-19,-12 L-19,12 L-5,12 L-5,-12 M-19,0 L-5,0
-     M9,12 L9,-12 L21,-12 Q34,-12 34,0 Q34,12 21,12 L9,12
-     M46,-12 L46,12 M46,-12 L58,12 L70,-12 M70,-12 L70,12
-     M82,-12 L82,12 L96,12 Q106,12 106,0 Q106,-12 96,-12 L82,-12
-     M115,-12 L115,12 M111,-12 L119,-12
-"/>
-</svg>
-</p>
+![banner](snowflake_banner.svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00B4D8&center=true&vCenter=true&width=500&lines=DevOps+Engineer+%F0%9F%9A%80;Infrastructure+Automation+Enthusiast;Ansible+%7C+Linux+%7C+Cloud+Native;Always+learning%2C+always+building)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00B4D8&center=true&vCenter=true&width=500&lines=DevOps+Engineer+%F0%9F%9A%80;Infrastructure+Automation+Enthusiast;Ansible+%7C+Linux+%7C+Cloud+Native;Always+learning%2C+always+building)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="coding gif" />
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="coding gif" />
 
 ## 👨‍💻 About Me
 
@@ -92,7 +221,7 @@ fun_fact: >
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Project
 
 <div align="center">
 
@@ -108,17 +237,7 @@ fun_fact: >
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=rushikesh-9&theme=tokyonight&column=6&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-[![Rushikesh's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rushikesh-9&theme=tokyo-night&border_color=00B4D8)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![trophy](https://github-profile-trophy.vercel.app/?username=rushikesh-9&theme=tokyonight&column=6&margin-w=10&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -140,8 +259,6 @@ fun_fact: >
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=rushikesh-9.rushikesh-9)
 
-**"Automate the boring stuff. Focus on what matters."**
-
-⭐ *From [rushikesh-9](https://github.com/rushikesh-9)*
+*"Automate the boring stuff. Focus on what matters."*
 
 </div>
