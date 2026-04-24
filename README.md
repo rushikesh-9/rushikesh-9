@@ -71,19 +71,6 @@ fun_fact: >
 
 ---
 
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rushikesh-chandanwar)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rushikesh-9)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rushikeshchandanwar@gmail.com)
-
-</div>
-
----
-
 <div align="center">
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=rushikesh-9.rushikesh-9)
