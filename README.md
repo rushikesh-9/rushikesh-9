@@ -45,10 +45,3 @@ fun_fact: >
 
 
 
-<div align="center">
-
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=rushikesh-9.rushikesh-9)
-
-*"Automate the boring stuff. Focus on what matters."*
-
-</div>
