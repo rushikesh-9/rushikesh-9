@@ -39,28 +39,7 @@ fun_fact: >
 ---
 
 
-## 🚀 Featured Project
 
-<div align="center">
-
-[![Load Balancer](https://github-readme-stats.vercel.app/api/pin/?username=rushikesh-9&repo=Load-Balancer-Project&theme=tokyonight&border_color=00B4D8)](https://github.com/rushikesh-9/Load-Balancer-Project)
-
-</div>
-
-> 🔧 **Load-Balancer-Project** — Automated load balancer configuration using **Ansible**. Provisions and configures Nginx as a reverse proxy across multiple backend servers with zero manual intervention.
-
----
-
-
-<div align="center">
-
-[![Traffic-Distribution-Web-Application](https://github-readme-stats.vercel.app/api/pin/?username=rushikesh-9&repo=Traffic-Distribution-Web-Application&theme=tokyonight&border_color=00B4D8)](https://github.com/rushikesh-9/traffic-distribution-web-application)
-
-</div>
-
-> 🔧 **Traffic-Distribution-Web-Application** — Travels Ticket Booking System — A full-stack web application deployed across a 4-server Linux infrastructure with HAProxy load balancing.
-
----
 
 
 
