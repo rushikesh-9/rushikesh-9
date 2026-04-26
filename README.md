@@ -21,7 +21,8 @@ located_in: Maharashtra, India
 pronouns: he/him
 
 current_focus:
-  - Load Balancer automation with Ansible
+  - DevOps
+  - AWS Cloud
   - Infrastructure as Code (IaC)
   - Linux systems administration
 
@@ -33,7 +34,7 @@ interests:
 
 fun_fact: >
   I believe every manual task
-  deserves an Ansible playbook
+  deserves an Automation
 ```
 
 ---
